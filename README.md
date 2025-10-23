@@ -32,10 +32,7 @@ image_folder = C:\Users\YourName\Pictures\Wallpapers
 # Set your Python executable path
 python_exe = C:\Python313\python.exe
 
-[Timing]
-# Continuous mode interval (seconds)
-interval_seconds = 60
-
+[Timing]
 # Scheduled mode interval (minutes)
 interval_minutes = 30
 
@@ -172,11 +169,6 @@ schtasks /Run /TN WallpaperChanger
   - Find yours with: `where python` in Command Prompt
 
 #### `[Timing]`
-- **`interval_seconds`**: Rotation interval for `set_desktop.py` (continuous mode)
-  - Default: `60` (1 minute)
-  - Range: Any positive integer
-  - Lower values = more frequent changes
-  
 - **`interval_minutes`**: Rotation interval for `schedule_wallpaper.py` (scheduled mode)
   - Default: `30` (30 minutes)
   - Range: Any positive integer
