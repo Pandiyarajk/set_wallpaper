@@ -32,7 +32,8 @@ image_folder = C:\Users\YourName\Pictures\Wallpapers
 # Set your Python executable path
 python_exe = C:\Python313\python.exe
 
-[Timing]
+[Timing]
+
 # Scheduled mode interval (minutes)
 interval_minutes = 30
 
@@ -101,11 +102,13 @@ python schedule_wallpaper.py
    - Repeats
 
 **When to use:**
+
 - You want frequent wallpaper changes during active work sessions
 - You prefer manual control over when rotation starts/stops
 - You don't want to set up Task Scheduler
 
 **Example Output:**
+
 ```
 🖼️  Found 25 images in C:\Users\YourName\Pictures\Wallpapers
 ⏱️  Rotation interval: 60 seconds
@@ -281,4 +284,5 @@ Suggestions and improvements are welcome! This is a simple utility designed to b
 ---
 
 **Enjoy your dynamic desktop! 🎨**
+
 
